@@ -6,7 +6,7 @@ from flask_mysqldb import MySQL
 app=Flask(__name__)
 app.config['MYSQL_HOST']='localhost'
 app.config['MYSQL_USER']='root'
-app.config['MYSQL_PASSWORD']='y2fg#?_w=Fa:11'
+app.config['MYSQL_PASSWORD']='root123'
 app.config['MYSQL_DB']='db_sample'
 app.config['MYSQL_CURSORCLASS']='DictCursor'
 mysql=MySQL(app)
